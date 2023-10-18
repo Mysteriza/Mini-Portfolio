@@ -1,9 +1,8 @@
 # 💼 Responsive Mini Portfolio
 
-## DEMO (UNFINISHED)
-## [Portfolio](https://rifqi-fachriza.vercel.app/)
+## [Portfolio (Demo - UNFINISHED)](https://rifqi-fachriza.vercel.app/)
 
-## [Watch it on youtube](https://youtu.be/mq0xJxOTiYo)
+## [Watch it on YouTube](https://youtu.be/mq0xJxOTiYo)
 
 ### 💼 Responsive Mini Portfolio
 
