@@ -93,7 +93,6 @@ img {
   color: var(--first-color);
 }
 
-
 /*========== Variables Dark theme ==========*/
 body.dark-theme{
   --title-color: hsl(var(--hue), 12%, 95%);
