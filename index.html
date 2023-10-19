@@ -17,6 +17,8 @@
     <body>
         <!--=============== HEADER PROFILE ===============-->
         <header class="profile container">
+            <!-- Theme button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
             <div class="profile__container grid">
                 <div class="profile__data">
                     <div class="profile__border">
@@ -91,7 +93,8 @@
             <section class="filters container">
                 <!--=============== FILTERS TABS ===============-->
                 <ul class="filters__content">
-                    <button class="filters__button" data-target="#projects">
+                    <button class="filters__button filter-tab-active"
+                        data-target="#projects">
                         Projects
                     </button>
                     <button class="filters__button" data-target="#skills">
@@ -100,7 +103,8 @@
                 </ul>
                 <div class="filters__sections">
                     <!--=============== PROJECTS ===============-->
-                    <div class="projects__content grid" data-content
+                    <div class="projects__content grid filters__active"
+                        data-content
                         id="projects">
                         <article class="projects__card">
                             <img src="assets/img/project1.jpg" alt
@@ -258,7 +262,7 @@
                                     <div class="skills__data">
                                         <i class="ri-checkbox-circle-line"></i>
                                         <div>
-                                            <h3 class="skills__name">SQL Injection</h3>
+                                            <h3 class="skills__name">SQL</h3>
                                             <span class="skills__level">Basic</span>
                                         </div>
                                     </div>
@@ -274,7 +278,8 @@
                                     <div class="skills__data">
                                         <i class="ri-checkbox-circle-line"></i>
                                         <div>
-                                            <h3 class="skills__name">HTML Injection</h3>
+                                            <h3 class="skills__name">HTML
+                                                Inj</h3>
                                             <span class="skills__level">Intermediate</span>
 
                                         </div>
@@ -285,7 +290,8 @@
                                     <div class="skills__data">
                                         <i class="ri-checkbox-circle-line"></i>
                                         <div>
-                                            <h3 class="skills__name">HTTP Request</h3>
+                                            <h3 class="skills__name">HTTP
+                                                Request</h3>
                                             <span class="skills__level">Basic</span>
 
                                         </div>
@@ -294,7 +300,8 @@
                                     <div class="skills__data">
                                         <i class="ri-checkbox-circle-line"></i>
                                         <div>
-                                            <h3 class="skills__name">WiFi Pentester</h3>
+                                            <h3 class="skills__name">WiFi
+                                                Pentester</h3>
                                             <span class="skills__level">Intermediate</span>
 
                                         </div>
@@ -303,7 +310,8 @@
                                     <div class="skills__data">
                                         <i class="ri-checkbox-circle-line"></i>
                                         <div>
-                                            <h3 class="skills__name">Web Pentester</h3>
+                                            <h3 class="skills__name">Web
+                                                Pentester</h3>
                                             <span class="skills__level">Advanced</span>
 
                                         </div>
@@ -317,9 +325,12 @@
         </main>
         <!--=============== FOOTER ===============-->
         <footer class="footer container">
+            <span class="footer__copy">
+                &#169; Mysteriza. All rigths reserved.
+            </span>
         </footer>
         <!--=============== SCROLLREVEAL ===============-->
-        <script src></script>
+        <script src="assets/js/scrollreveal.min.js"></script>
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
     </body>
