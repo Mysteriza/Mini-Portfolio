@@ -21,7 +21,6 @@ tabs.forEach((tab) => {
 });
 
 /*=============== DARK LIGHT THEME ===============*/
-/*=============== DARK LIGHT THEME ===============*/
 const themeButton = document.getElementById("theme-button");
 const darkTheme = "dark-theme";
 const iconTheme = "ri-sun-line";
