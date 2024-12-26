@@ -1,6 +1,6 @@
 # 💼 Responsive Mini Portfolio
 
-## [My Portfolio](https://tii.la/portfolio-rifqi)
+## [My Portfolio](https://www.mysteriza.my.id/)
 
 ## [Watch it on YouTube for more information](https://youtu.be/mq0xJxOTiYo)
 
