@@ -73,3 +73,10 @@ sr.reveal(".profile__info-group", { interval: 100, delay: 700 });
 sr.reveal(".profile__buttons", { delay: 800 });
 sr.reveal(".filters__content", { delay: 900 });
 sr.reveal(".filters", { delay: 1000 });
+
+/*=============== DYNAMICALLY UPDATE THE YEAR ===============*/
+// Get the current year
+const currentYear = new Date().getFullYear();
+
+// Update the content of the span with id 'current-year'
+document.getElementById("current-year").textContent = currentYear;
